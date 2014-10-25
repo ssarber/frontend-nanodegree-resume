@@ -1,32 +1,36 @@
 var bio = {
     "name": "Stan Sarber",
-	"role": "slacker",
-	"contactInfo" : {
-		"email": "ssarber-at-gmail.com",
-		"mobile": "415-333-4444"
-	} ,
-	"pictureURL": "images/fry.jpg",
-	"welcomeMessage": "Hullo",
-	"skills": [ "awesomeness", "doing no evil", "creating fun"]
+    "role": "slacker",
+    "contactInfo": {
+        "email": "ssarber-at-gmail.com",
+        "mobile": "415-333-4444"
+    },
+    "pictureURL": "images/fry.jpg",
+    "welcomeMessage": "Hullo",
+    "skills": [
+        "awesomeness",
+        "doing no evil",
+        "creating fun"
+    ]
 };
 
 var work = {
-	"jobs": [
-		{ 
-			"title": "Creator of Things",
-			"employer": "A Company",
-			"dates": "2012-present",
-			"city": "Oakland",
-			"description": "Did some work."
-		},
-        { 
+    "jobs": [
+        {
+            "title": "Creator of Things",
+            "employer": "A Company",
+            "dates": "2012-present",
+            "city": "Oakland",
+            "description": "Did some work."
+        },
+        {
             "title": "Leader of Men",
             "employer": "Media Company",
             "dates": "2010-2012",
             "city": "San Francisco",
             "description": "Did some work."
         }
-	]
+    ]
 };
 
 var projects = {
