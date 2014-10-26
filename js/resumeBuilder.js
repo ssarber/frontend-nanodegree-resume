@@ -101,12 +101,12 @@ for (skill in bio.skills) {
 for (job in work.jobs) {
     $("#workExperience").append(HTMLworkStart);
     var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job]["employer"]);
-    console.log(job)
     var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job]["title"]);
 
     var formattedEmployerTitle = formattedEmployer + formattedTitle;
-    $("#work-entry:last").append(formattedEmployerTitle);
+    $(".work-entry:last").append(formattedEmployerTitle);
 
-    // console.log(formattedEmployerTitle);
+
+    console.log(work.jobs[job]);
     // console.log($("#work-entry"))
 };
